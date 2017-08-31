@@ -1,0 +1,37 @@
+Mage Knights
+
+(Preferred to be played on high performance)
+
+Game Developed by
+Mohamed Anas
+Ahmed Mohamed Abdl El Mo'ty
+Madonna Khalil
+
+UI Developed by
+Mennat allh Osama Mohamed
+Heba Bahaaa El Deen Kotb
+
+Music & effects
+Mohamed Anas
+
+
+Game Controles
+Arrows
+
+A W S D , Space
+
+D+Space to Dash Jump left
+A+Space to Dash Jump right
+
+Mouse aim and Shoot
+
+Levels
+
+Red Knights
+Shoot Fire straight
+
+Leveled up Blue Knight
+
+If Clicked far , shoot will accelerate fast
+
+if Clicked near charcter will accelerate slow , maybe created  a shield around you

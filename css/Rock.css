@@ -1,0 +1,56 @@
+
+#OT {
+    height: 20px;
+    width: 120px;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+#number {
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.bgimg {
+    background-image: url('../img/dalles2.png');
+}
+
+.bgimg2 {
+    background-image: url('../img/ubh.jpg');
+}
+
+body {
+    background-color: darkred;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#Die , #Levelup{
+    display: none;
+    position: fixed;
+    width: 1552px;
+    height: 802px;
+    background-color: aliceblue;
+    z-index: 20;
+}
+img{
+    position: absolute;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+    -o-user-select:none;
+}
+#scoreboard {
+    display: inline-block;
+    width: 550px;
+    height: 250px;
+    margin: 250px 500px;
+    background-color: aqua;
+    border-radius: 25px;
+}

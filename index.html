@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <script src="js/plugin.js"></script>
+    <script type="application/javascript" src="js/jquery-3.1.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btnOption").click(function () {
+                $("#soundOp").fadeToggle("slow");
+            });
+        });
+        $(document).ready(function () {
+            $("#btnPlay").click(function () {
+                $("#LevelOp").fadeToggle("slow");
+            });
+        });
+    </script>
+
+</head>
+<body>
+<audio id="myTune" autoplay loop>
+    <source src="Sound/Pacman.mp3">
+</audio>
+<div class="container">
+    <div class="btn">
+
+        <div class="menu">
+            <button id="btnPlay">Play</button>
+        </div>
+        <div class="opcontainer" id="LevelOp">
+            <div class="ll">
+                <div class="opbtn">
+
+                    <div class="opmenu">
+                        <table>
+                            <tr>
+                                <td><span> Levels </span>
+                                <td>
+
+                                <td>
+                                    <button onclick="window.location.href='html/rockseasy.html'">Easy</button>
+                                    <button onclick="window.location.href='html/rockshard.html'">Hard</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <button id="btnOption">Sound Setting</button>
+        </div>
+        <div class="opcontainer" id="soundOp">
+            <div class="opbtn">
+
+                <div class="opmenu">
+
+
+                    <table>
+                        <tr>
+                            <td><span> Music </span>
+                            <td>
+                            <td>
+                                <button onclick="stop();" class="mute-button"><img src="img/mute.png"></button>
+                                <button onclick="document.getElementById('myTune').play();"><img
+                                        src="img/unmute.png"></button>
+                                <button onclick="volUp();"><img src="img/up.png"></button>
+                                <button onclick="volDown();"><img src="img/down.png"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span> Sound Effects </span>
+                            <td>
+                            <td>
+                                <button class="mute-button"><img src="img/mute.png"></button>
+                                <button class="mute-button"><img src="img/unmute.png"></button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <button onclick="close_window()">Exit</button>
+        </div>
+    </div>
+
+</div>
+
+<script type="text/javascript">
+
+    function close_window() {
+        if (confirm("Are you sure you want to exit :( ?")) {
+            close();
+        }
+    }
+</script>
+</body>
+</html>
